@@ -6,15 +6,16 @@
     <title>My TO-DO LIST</title>
 
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" async></script>
 </head>
 <body>
     <div class="container">
         <div class="todo-app">
             <h2>To-Do List <img src="./images/icon.png"></h2>
-
+            
             <div class="row">
                 <input type="text" id="input-box" placeholder="Complete your homework">
-                <button> Add</button>
+                <button onclick="addTask()"> Add</button>
             </div>
             <ul id="list-container">
                 <!-- <li class="checked">Task1</li> -->
